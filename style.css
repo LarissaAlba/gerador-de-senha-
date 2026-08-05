@@ -97,12 +97,48 @@ border: 2px solid var(--borda);
 padding: 24px;
 font-size: 24px;
 }
-.parametro-senha__texto{
+.parametro-senha__textos{
 
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
 
+}
+label{
+    font-size: 20px;
+}
 
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+
+.fraca{
+    height: 30px;
+    width: 25%;
+    background-color: #E71B32;
+    position: relative;
+    bottom: 30px;
+}
+
+.media{
+    height: 30px;
+    width: 50%;
+    background-color: #FAF408;
+    position: relative;
+    bottom: 30px;
+}
+.forte{
+    height: 30px;
+    width: 100%;
+    background-color: #00FF85;
+    position: relative;
+    bottom: 30px;
+}
+
+.parametro-senha-textos {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
