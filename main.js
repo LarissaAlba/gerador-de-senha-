@@ -17,3 +17,12 @@ function aumentaTamanho() {
     }
     numeroSenha.textContent = tamanhoSenha;
 }
+const campoSenha=document.querySelector(#campo-senha);
+const letraMaiuscula='ABCDEFG';
+geraSenha();
+function geraSenha(){
+let numeroAleatorio = Math.random()*letraMaiuscula.lengtch;
+numeroAleatorioMatch.floor{numeroAleatorio};
+console.log{letraMaiuscula[numeroAleatorio]}
+
+}
